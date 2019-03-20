@@ -44,3 +44,5 @@ fields:
   hidden: false
   default: ''
 - type: textarea
+pages:
+- content/post/7-excellentes-raisons-de-choisir-un-chargé-de-communication-externalisé.md
