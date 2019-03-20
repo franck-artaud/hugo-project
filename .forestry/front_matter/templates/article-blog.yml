@@ -12,16 +12,17 @@ fields:
   type: text
   hidden: false
   default: ''
-- name: image
+- type: file
+  name: image
   label: Image
-  type: text
-  hidden: false
-  default: ''
 - name: weight
   label: Weight
   type: text
   hidden: false
   default: ''
+- type: textarea
+  name: label
+  label: Texte
 - name: categories
   label: Categories
   type: tag_list
@@ -42,3 +43,4 @@ fields:
   type: tag_list
   hidden: false
   default: ''
+- type: textarea
